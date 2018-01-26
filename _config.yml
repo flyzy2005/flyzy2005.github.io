@@ -1,10 +1,10 @@
 # Site settings
 title: flyzy小站
-SEOTitle: flyzy小站 | Learning on the way
+SEOTitle: flyzy小站 | flyzy小站，GitHub Pages分部
 header-img: img/home-bg.jpg
 email: flyzy2005@gmail.com
-description: "flyzy小站，学习ing"
-keyword: ""
+description: "flyzy小站GitHub分站~"
+keyword: "技术分享,科学上网,建站教程"
 url: "https://flyzy2005.github.io"              # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -12,6 +12,7 @@ baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 # SNS settings
 RSS: false
+csdn_username: wf632856695
 #weibo_username:     flyzy2005
 #zhihu_username:     flyzy2005
 github_username:    flyzy2005
@@ -74,7 +75,7 @@ sidebar-avatar: /img/avatar.jpg      # use absolute URL, seeing it's used in bot
 
 
 # Featured Tags
-featured-tags: false                     # whether or not using Feature-Tags
+featured-tags: true                     # whether or not using Feature-Tags
 featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
 
 
@@ -83,6 +84,7 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 friends: [
     {
         title: "flyzy小站",
-        href: "https://www.flyzy2005.cn"
+        href: "https://www.flyzy2005.cn",
+        description: "flyzy小站总部，欢迎来给我留言~"
     }
 ]

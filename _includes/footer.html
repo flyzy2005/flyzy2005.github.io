@@ -14,6 +14,16 @@
                         </a>
                     </li>
                     {% endif %}
+                    {% if site.csdn_username %}
+                            <li>
+                                <a target="_blank" href="http://blog.csdn.net/{{ site.csdn_username }}">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa  fa-stack-1x fa-inverse">C</i>
+                                    </span>
+                                </a>
+                            </li>
+                    {% endif %}
                     {% if site.twitter_username %}
                     <li>
                         <a href="https://twitter.com/{{ site.twitter_username }}">
@@ -72,12 +82,8 @@
                 <p class="copyright text-muted">
                     Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}
                     <br>
-                    Theme by <a href="http://huangxuan.me">Hux</a> |
-                    <iframe
-                        style="margin-left: 2px; margin-bottom:-5px;"
-                        frameborder="0" scrolling="0" width="91px" height="20px"
-                        src="https://ghbtns.com/github-btn.html?user=huxpro&repo=huxpro.github.io&type=star&count=true" >
-                    </iframe>
+                    Theme on <a href="https://www.flyzy2005.cn/build-page/github-pages-jekyll-blog">flyzy2005</a> |
+                    Created by <a href="http://huangxuan.me">Hux</a> 
                 </p>
             </div>
         </div>

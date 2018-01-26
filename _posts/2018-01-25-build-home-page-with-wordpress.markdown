@@ -1,9 +1,9 @@
 ---
 layout:     post
-title:      "手把手教你搭建自己的个人网站"
-subtitle:   " \"基于WordPress的个人网站\""
+title:      手把手教你搭建自己的个人网站
+subtitle:   基于WordPress的个人网站
 date:       2018-01-25
-author:     "flyzy"
+author:     flyzy
 header-img: "img/post-bg-2018.jpg"
 tags:
     - 建站
