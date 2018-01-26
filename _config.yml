@@ -1,4 +1,4 @@
-# Site settings
+# Site settings 按照自己的网站信息做点修改
 title: flyzy小站
 SEOTitle: flyzy小站 | flyzy小站，GitHub Pages分部
 header-img: img/home-bg.jpg
@@ -6,11 +6,11 @@ email: flyzy2005@gmail.com
 description: "flyzy小站GitHub分站~"
 keyword: "技术分享,科学上网,建站教程"
 url: "https://flyzy2005.github.io"              # your host, for absolute URL
-baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: ""         # 例如, '/blog' 如果你的博客的路径是'host/blog'，默认是空
 
 
 
-# SNS settings
+# SNS settings 就是关于我下面的图标，不需要注释即可~需要就填自己的用户名
 RSS: false
 csdn_username: wf632856695
 #weibo_username:     flyzy2005
@@ -58,19 +58,18 @@ kramdown:
 
 
 
-# Analytics settings
-# Baidu Analytics
-#ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
-# Google Analytics
-#ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-#ga_domain: huangxuan.me
+# Analytics settings 不用请注释这两行！！！
+# Baidu 统计 （自己百度搜索百度统计获得自己的追踪代码）
+ba_track_id: b0194eff1ffb1d6ad8b04f0440bdf507
+# Google 分析 （登录需要要翻墙，不需要的请注释下面一行，请一定要注释啊，不然记录全跑我那里了！！！）
+ga_track_id: 'UA-112052918-2'            # 格式: UA-xxxxxx-xx
 
 
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "学习ing~</br>主页：<a href=\"https://www.flyzy2005.cn\">flyzy小站</a>"
-sidebar-avatar: /img/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "学习ing~</br>主页：<a href=\"https://www.flyzy2005.cn\">flyzy小站</a>" # 关于我的介绍
+sidebar-avatar: /img/avatar.jpg      # 头像图片，在首页、关于我、标签聚合里用到
 
 
 
@@ -80,7 +79,7 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 
 
 
-# Friends
+# Friends 友链~留着我的友链那就太好了-。-
 friends: [
     {
         title: "flyzy小站",
