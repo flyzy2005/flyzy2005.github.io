@@ -79,11 +79,15 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 
 
 
-# Friends 友链~留着我的友链那就太好了-。-
+# Friends 友链~留着我的第一个友链那就太好了-。-
 friends: [
     {
         title: "flyzy小站",
         href: "https://www.flyzy2005.cn",
         description: "flyzy小站总部，欢迎来给我留言~"
+    },{
+        title: "flyzy小站Coding Pages",
+        href: "https://flyzy2005.coding.me",
+        description: "flyzy小站Coding Pages分部~"
     }
 ]
